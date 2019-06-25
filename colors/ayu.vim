@@ -261,39 +261,6 @@ hi! link diffAdded String
 
 "}}}
 
-" Extended JavaScript Support: "{{{
-hi! link jsSpecial               Statement
-hi! link jsFuncArgs              Operator
-hi! link jsNumber                Operator
-hi! link jsBooleanFalse          Operator
-hi! link jsBooleanTrue           Operator
-hi! link jsFuncArgRest           jsSpecial
-hi! link jsDocTags               jsSpecial
-hi! link jsStatic                jsSpecial
-hi! link jsSuper                 jsSpecial
-hi! link jsPrototype             jsSpecial
-hi! link jsArgsObj               jsSpecial
-hi! link jsTemplateVar           jsSpecial
-hi! link jsExceptions            jsSpecial
-hi! link jsFutureKeys            jsSpecial
-hi! link jsBuiltins              Function
-hi! link jsDecorator             jsSpecial
-hi! link jsHtmlEvents            jsSpecial
-hi! link jsObjectKey             Special
-hi! link jsNull                  Constant
-hi! link jsUndefined             Operator
-hi! link jsOperator              Keyword
-hi! link jsFunctionKey           Function
-hi! link jsFuncCall              Function
-hi! link jsFuncAssignExpr        Function
-hi! link jsFuncAssignIdent       Function
-hi! link jsClassProperty         Normal
-hi! link jsExport                Constant
-hi! link jsExportDefault         Include
-hi! link jsThis                  Constant
-hi! link jsGlobalObjects         Constant
-hi! link jsStorageClass          Include
-" }}}
 "
 " This is needed for some reason: {{{
 
